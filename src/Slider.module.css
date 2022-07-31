@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.container{
+    margin: 70px auto 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.arrowRight{
+    width: 50px;
+    height: 55px;
+    background-image: url("../pictures/ArrowRight@2x.png");
+    cursor: pointer;
+}
+.arrowLeft{
+    width: 50px;
+    height: 55px;
+    background-image: url("../pictures/ArrowLeft@2x.png");
+    cursor: pointer;
+}
+.sliderPicture{
+    width: 700px;
+    height: 500px;
+    background-size: cover;
+    border: 1px solid white;
+}
+p{
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 220px;
+}
+span{
+    font-size: 25px;
+}
